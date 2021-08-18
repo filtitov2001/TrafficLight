@@ -44,6 +44,9 @@
                                     <color key="titleColor" systemColor="systemBackgroundColor"/>
                                     <color key="titleShadowColor" systemColor="labelColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="changeButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="6O0-66-W0Z"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -53,6 +56,12 @@
                             <constraint firstItem="SZs-X2-AnA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LZB-cd-ESu"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="changeButton" destination="SZs-X2-AnA" id="B4Z-pd-CYV"/>
+                        <outlet property="greenView" destination="Rya-8U-ULj" id="x3w-1F-47u"/>
+                        <outlet property="redView" destination="48x-Uu-Xqm" id="DCd-dH-snm"/>
+                        <outlet property="yellowView" destination="fU6-yj-BIS" id="PCB-Fx-VEI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
