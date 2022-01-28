@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <device id="retina4_0" orientation="portrait" appearance="dark"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
@@ -15,32 +15,31 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TrafficLight" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="JCp-we-Aeu">
-                                <rect key="frame" x="132.33333333333331" y="76" width="163.33333333333331" height="544.66666666666663"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="JCp-we-Aeu">
+                                <rect key="frame" x="110" y="32" width="100" height="334"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="48x-Uu-Xqm">
-                                        <rect key="frame" x="0.0" y="0.0" width="163.33333333333334" height="170.33333333333334"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                         <color key="backgroundColor" red="0.96655136350000004" green="0.1238390023" blue="0.081742843669999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fU6-yj-BIS">
-                                        <rect key="frame" x="0.0" y="187.33333333333331" width="163.33333333333334" height="170"/>
+                                        <rect key="frame" x="0.0" y="117" width="100" height="100"/>
                                         <color key="backgroundColor" red="0.84731119404193644" green="0.86087566614151001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rya-8U-ULj">
-                                        <rect key="frame" x="0.0" y="374.33333333333331" width="163.33333333333334" height="170.33333333333331"/>
+                                        <rect key="frame" x="0.0" y="234" width="100" height="100"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="fU6-yj-BIS" firstAttribute="height" secondItem="48x-Uu-Xqm" secondAttribute="height" id="ZMB-U5-u0O"/>
-                                    <constraint firstItem="Rya-8U-ULj" firstAttribute="height" secondItem="fU6-yj-BIS" secondAttribute="height" id="cTY-lz-iaJ"/>
+                                    <constraint firstAttribute="width" secondItem="JCp-we-Aeu" secondAttribute="height" multiplier="50:167" id="4KQ-fc-r8t"/>
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SZs-X2-AnA">
-                                <rect key="frame" x="146" y="742" width="136" height="54"/>
+                                <rect key="frame" x="92" y="418" width="136" height="54"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="136" id="NmY-DO-n5o"/>
@@ -58,12 +57,12 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="JCp-we-Aeu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="6hv-ds-raq"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="SZs-X2-AnA" secondAttribute="bottom" constant="96" id="Bwd-DV-IHo"/>
-                            <constraint firstItem="SZs-X2-AnA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LZB-cd-ESu"/>
-                            <constraint firstItem="JCp-we-Aeu" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.588028" id="hjQ-hi-8sG"/>
-                            <constraint firstItem="JCp-we-Aeu" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="25:142" id="wNN-9r-WW8"/>
-                            <constraint firstItem="JCp-we-Aeu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yZO-1z-PC2"/>
+                            <constraint firstItem="JCp-we-Aeu" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.588028" id="3Sg-zK-lIs"/>
+                            <constraint firstItem="SZs-X2-AnA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3mM-xT-YIl"/>
+                            <constraint firstItem="JCp-we-Aeu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="NE3-bh-ENW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="SZs-X2-AnA" secondAttribute="bottom" constant="96" id="PZZ-0z-qJq"/>
+                            <constraint firstItem="SZs-X2-AnA" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="17:71" id="aFG-4L-gbK"/>
+                            <constraint firstItem="JCp-we-Aeu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ndk-iY-kwV"/>
                         </constraints>
                     </view>
                     <connections>
