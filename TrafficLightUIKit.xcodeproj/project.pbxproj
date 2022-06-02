@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2B51DE7926CD10F7003636F4 /* TrafficLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B51DE7926CD10F7003636F4 /* TrafficLightUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficLightUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B51DE7C26CD10F7003636F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B51DE7E26CD10F7003636F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2B51DE8026CD10F7003636F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		2B51DE7A26CD10F7003636F4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2B51DE7926CD10F7003636F4 /* TrafficLight.app */,
+				2B51DE7926CD10F7003636F4 /* TrafficLightUIKit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2B51DE7826CD10F7003636F4 /* TrafficLight */ = {
+		2B51DE7826CD10F7003636F4 /* TrafficLightUIKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B51DE8D26CD10F9003636F4 /* Build configuration list for PBXNativeTarget "TrafficLight" */;
+			buildConfigurationList = 2B51DE8D26CD10F9003636F4 /* Build configuration list for PBXNativeTarget "TrafficLightUIKit" */;
 			buildPhases = (
 				2B51DE7526CD10F7003636F4 /* Sources */,
 				2B51DE7626CD10F7003636F4 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = TrafficLight;
+			name = TrafficLightUIKit;
 			productName = TrafficLight;
-			productReference = 2B51DE7926CD10F7003636F4 /* TrafficLight.app */;
+			productReference = 2B51DE7926CD10F7003636F4 /* TrafficLightUIKit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2B51DE7426CD10F7003636F4 /* Build configuration list for PBXProject "TrafficLight" */;
+			buildConfigurationList = 2B51DE7426CD10F7003636F4 /* Build configuration list for PBXProject "TrafficLightUIKit" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2B51DE7826CD10F7003636F4 /* TrafficLight */,
+				2B51DE7826CD10F7003636F4 /* TrafficLightUIKit */,
 			);
 		};
 /* End PBXProject section */
@@ -326,7 +326,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2B51DE7426CD10F7003636F4 /* Build configuration list for PBXProject "TrafficLight" */ = {
+		2B51DE7426CD10F7003636F4 /* Build configuration list for PBXProject "TrafficLightUIKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B51DE8B26CD10F9003636F4 /* Debug */,
@@ -335,7 +335,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2B51DE8D26CD10F9003636F4 /* Build configuration list for PBXNativeTarget "TrafficLight" */ = {
+		2B51DE8D26CD10F9003636F4 /* Build configuration list for PBXNativeTarget "TrafficLightUIKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B51DE8E26CD10F9003636F4 /* Debug */,
